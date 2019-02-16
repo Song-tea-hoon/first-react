@@ -31,11 +31,17 @@ const desc = (
 //   'This is a ', strong
 // )
 
-const head = React.createElement(
-  'header',
-  null,
-  title, desc
+const head = (
+  <header>
+    {title}
+    {desc}
+  </header>
 )
+//   React.createElement(
+//   'header',
+//   null,
+//   title, desc
+// )
 
 console.log(title);
 
