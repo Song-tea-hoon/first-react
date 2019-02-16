@@ -1,3 +1,5 @@
+// 카페에 올리기 https://cafe.naver.com/ng2spring
+
 let book = {title: "인사이드 자바스크립트", price: 18000, author: "송영주", publisher: "한빛미디어"};
 
 let array = [

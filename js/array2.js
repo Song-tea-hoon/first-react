@@ -1,3 +1,5 @@
+// 카페에 올리기 https://cafe.naver.com/ng2spring
+
 // 1. 아래의 내용을 리터럴 객체로 담는 array list를 생성하시오.
 // title                    price author         publisher
 //---------------------------------------------------------------------------

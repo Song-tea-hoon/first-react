@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13970f2f-ccf3-4077-bfc7-ce6d99145560" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/array1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/array2.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/array2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/array3.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/array3.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,11 +26,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/array1.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/array2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="43" selection-start-column="43" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/array3.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="43" selection-start-column="43" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -72,6 +91,9 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/js/array1.js" />
+        <option value="$PROJECT_DIR$/js/Array2.js" />
+        <option value="$PROJECT_DIR$/js/array3.js" />
+        <option value="$PROJECT_DIR$/js/array2.js" />
       </list>
     </option>
   </component>
@@ -169,7 +191,7 @@
       <option name="presentableId" value="Default" />
       <updated>1550280029718</updated>
       <workItem from="1550280031858" duration="619000" />
-      <workItem from="1550280669149" duration="16437000" />
+      <workItem from="1550280669149" duration="16630000" />
     </task>
     <task id="LOCAL-00001" summary="React ReactDOM">
       <created>1550288254589</created>
@@ -255,11 +277,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550301081724</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="array forEach, map">
+      <created>1550302905850</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1550302905850</updated>
+    </task>
+    <task id="LOCAL-00014" summary="array 숙제 추가">
+      <created>1550303013431</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1550303013431</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17056000" />
+    <option name="totallyTimeSpent" value="17249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -298,7 +334,9 @@
     <MESSAGE value="this의 scope1 : this (new)" />
     <MESSAGE value="this의 scope1 : 부모, 객체맴버가 아닌 상태의 함수호출" />
     <MESSAGE value="function component" />
-    <option name="LAST_COMMIT_MESSAGE" value="function component" />
+    <MESSAGE value="array forEach, map" />
+    <MESSAGE value="array 숙제 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="array 숙제 추가" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.ts" />
@@ -368,7 +406,21 @@
     <entry file="file://$PROJECT_DIR$/js/array1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/array3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/array2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
         </state>
       </provider>
     </entry>
