@@ -7,3 +7,9 @@ let circleArea = (pi, r) => pi * r * r;
 let result = circleArea(3.14, 3);
 
 console.log(result); //실행 결과 "28.26"
+
+// currying function
+// let res = ( a, b ) => a + b;
+let res = a => b => a+b;
+
+console.log(res(1)(2));
