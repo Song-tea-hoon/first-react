@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13970f2f-ccf3-4077-bfc7-ce6d99145560" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/func1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/func3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -57,11 +57,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/func1.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
               <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/func2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/func3.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -92,6 +110,8 @@
         <option value="$PROJECT_DIR$/js/expression.js" />
         <option value="$PROJECT_DIR$/js/arrow.js" />
         <option value="$PROJECT_DIR$/js/func1.js" />
+        <option value="$PROJECT_DIR$/js/func2.js" />
+        <option value="$PROJECT_DIR$/js/func3.js" />
       </list>
     </option>
   </component>
@@ -152,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.func1.js">
+  <component name="RunManager" selected="Node.js.func3.js">
     <configuration name="arrow.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/arrow.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -162,8 +182,16 @@
     <configuration name="func1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/func1.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="func2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/func2.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="func3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/func3.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.func3.js" />
+        <item itemvalue="Node.js.func2.js" />
         <item itemvalue="Node.js.func1.js" />
         <item itemvalue="Node.js.arrow.js" />
         <item itemvalue="Node.js.expression.js" />
@@ -181,7 +209,7 @@
       <option name="presentableId" value="Default" />
       <updated>1550280029718</updated>
       <workItem from="1550280031858" duration="619000" />
-      <workItem from="1550280669149" duration="10911000" />
+      <workItem from="1550280669149" duration="12420000" />
     </task>
     <task id="LOCAL-00001" summary="React ReactDOM">
       <created>1550288254589</created>
@@ -239,15 +267,28 @@
       <option name="project" value="LOCAL" />
       <updated>1550294922308</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="this의 scope1 : global">
+      <created>1550295427932</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1550295427932</updated>
+    </task>
+    <task id="LOCAL-00010" summary="this의 scope1 : this (new)">
+      <created>1550295901999</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1550295901999</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11530000" />
+    <option name="totallyTimeSpent" value="13039000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -278,7 +319,9 @@
     <MESSAGE value="React JSX에 변수 적용" />
     <MESSAGE value="function expressions(함수 표현식) / arrow function" />
     <MESSAGE value="currying function" />
-    <option name="LAST_COMMIT_MESSAGE" value="currying function" />
+    <MESSAGE value="this의 scope1 : global" />
+    <MESSAGE value="this의 scope1 : this (new)" />
+    <option name="LAST_COMMIT_MESSAGE" value="this의 scope1 : this (new)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.ts" />
@@ -317,6 +360,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/func2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/func3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
         </state>
       </provider>
     </entry>
