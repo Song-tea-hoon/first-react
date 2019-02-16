@@ -1,20 +1,35 @@
-const title = React.createElement(
-  'h1',
-  {id:'main-title', title: 'This is a title'},
-  'My First React Element'
+const title = (
+  <h1 id="main-title" title="This is a title">
+    My First React Element
+  </h1>
 );
+//   React.createElement(
+//   'h1',
+//   {id:'main-title', title: 'This is a title'},
+//   'My First React Element'
+// );
 
-const strong = React.createElement(
-  'strong',
-  null,
-  'Description'
+const strong = (
+  <strong>
+    Description
+  </strong>
 )
+//   React.createElement(
+//   'strong',
+//   null,
+//   'Description'
+// )
 
-const desc = React.createElement(
-  'p',
-  null,
-  'This is a ', strong
+const desc = (
+  <p>
+    This is a {strong}
+  </p>
 )
+//   React.createElement(
+//   'p',
+//   null,
+//   'This is a ', strong
+// )
 
 const head = React.createElement(
   'header',

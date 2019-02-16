@@ -7,10 +7,9 @@
 </head>
 <body>
 <div id="root"></div>
-<!-- react core관련 -->
-<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
-<!-- react DOM관련 (네이티브 개발시 react native로 변경) -->
-<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-<script src="app.js"></script>
+<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script><!-- react core관련 -->
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script><!-- react DOM관련 (네이티브 개발시 react native로 변경) -->
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script><!-- JSX컨버팅 용 babel CDN-->
+<script type="text/babel" src="app.js"></script><!-- type="text/babel" 로 설정 해주어야 한다.-->
 </body>
 </html>
