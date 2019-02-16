@@ -13,10 +13,11 @@ const desc = 'This is a Description';
 
 // function component
 // 함수 컴포넌트를 **호출(생성이 아니다.)**하면 JSX형식에 맞춰진 ReactElement객체를 리턴
+// props는 부모로 부터 온 object형식의 상태 readOnly(변경이 되면 자기 자신만 바뀐다.)
 const Header = (props) => (
   <header>
-    <h1>Scoreboard</h1>
-    <span className="stats">Players: 1</span>
+    <h1>{props.title}</h1>
+    <span className="stats">Players: {props.totalPlayers}</span>
   </header>
 );
 
@@ -38,7 +39,7 @@ const Player = (props) => (
 const App = (props) => {
   return (
     <div className="scoreboard">
-      <Header/>
+      <Header title="My scoreboard" totalPlayers={1 + 10}/>
       {/*play list*/}
       <Player/>
     </div>
