@@ -1,48 +1,16 @@
-const title = (
-  <h1 id="main-title" title="This is a title">
-    My First React Element
-  </h1>
-);
-//   React.createElement(
-//   'h1',
-//   {id:'main-title', title: 'This is a title'},
-//   'My First React Element'
-// );
+const myTitle = 'This is a title';
+const myTitleId = 'main-title';
+const title = 'My First React Element';
+const desc = 'This is a Description';
 
-const strong = (
-  <strong>
-    Description
-  </strong>
-)
-//   React.createElement(
-//   'strong',
-//   null,
-//   'Description'
-// )
-
-const desc = (
-  <p>
-    This is a {strong}
-  </p>
-)
-//   React.createElement(
-//   'p',
-//   null,
-//   'This is a ', strong
-// )
-
+// 선택 범위 : control - w
 const head = (
   <header>
-    {title}
-    {desc}
+    <h1 id={myTitleId} title={myTitle}>111 {title}</h1>
+    <p>{desc}</p>
   </header>
 )
-//   React.createElement(
-//   'header',
-//   null,
-//   title, desc
-// )
 
-console.log(title);
+console.log(head);
 
 ReactDOM.render( head, document.getElementById('root'));
