@@ -29,24 +29,24 @@ const Header = (props) => (
 );
 
 class Counter extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      score: 0
-    }
-    this.incrementScore.bind(this)
-  }
-
-  incrementScore() {
-    console.log('increment', this)
-  }
-  // state = {
-  //   score: 0
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //     score: 0
+  //   };
+  //   this.incrementScore = this.incrementScore.bind(this);
   // }
   //
-  // incrementScore = () => {
-  //   console.log('increment', this); // lexical this: 자기자긴을 가르킨다.
+  // incrementScore = function() {
+  //   console.log('increment', this)
   // }
+  state = {
+    score: 0
+  }
+
+  incrementScore = () => {
+    console.log('increment', this); // lexical this: 자기자긴을 가르킨다.
+  }
 
   render() {
     return(
