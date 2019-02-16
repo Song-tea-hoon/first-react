@@ -1,3 +1,10 @@
+const players = [
+  {name: 'LDK', score: 30, id: 0},
+  {name: 'HONG', score: 40, id: 1},
+  {name: 'KIM', score: 50, id: 2},
+  {name: 'PARK', score: 60, id: 3},
+];
+
 const myTitle = 'This is a title';
 const myTitleId = 'main-title';
 const title = 'My First React Element';
@@ -41,12 +48,14 @@ const App = (props) => {
     <div className="scoreboard">
       <Header title="My scoreboard" totalPlayers={1 + 10}/>
       {/*play list*/}
-      <Player name="song" score={50} />
-      <Player name="kim" score={60} />
-      <Player name="lee" score={70} />
-      <Player name="park" score={80} />
+      {
+        props.initialPlaters.map(item=><Player
+          key={item.id}
+          name={item.name}
+          score={item.score} />)
+      }
     </div>
   )
 }
 
-ReactDOM.render( <App/>, document.getElementById('root'));
+ReactDOM.render( <App initialPlaters={players}/>, document.getElementById('root'));
