@@ -28,13 +28,37 @@ const Header = (props) => (
   </header>
 );
 
-const Counter = (props) => (
-  <div className="counter">
-    <button className="counter-action">+</button>
-    <span className="counter-score">{props.score}</span>
-    <button className="counter-action">-</button>
-  </div>
-);
+class Counter extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      score: 0
+    }
+    this.incrementScore.bind(this)
+  }
+
+  incrementScore() {
+    console.log('increment', this)
+  }
+  // state = {
+  //   score: 0
+  // }
+  //
+  // incrementScore = () => {
+  //   console.log('increment', this); // lexical this: 자기자긴을 가르킨다.
+  // }
+
+  render() {
+    return(
+      <div className="counter">
+        <button className="counter-action">-</button>
+        <span className="counter-score">{this.state.score}</span>
+        {/* 이벤트의 등록은 명령형이 아니라 선언형 스타일로 등록해야한다. */}
+        <button className="counter-action" onClick={this.incrementScore}>+</button>
+      </div>
+    )
+  }
+}
 
 const Player = (props) => (
   <div className="player">

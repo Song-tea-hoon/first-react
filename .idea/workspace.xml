@@ -19,8 +19,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+            <state relative-caret-position="207">
+              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/class1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -92,6 +101,7 @@
         <option value="$PROJECT_DIR$/js/Array2.js" />
         <option value="$PROJECT_DIR$/js/array3.js" />
         <option value="$PROJECT_DIR$/js/array2.js" />
+        <option value="$PROJECT_DIR$/js/class1.js" />
         <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
@@ -153,11 +163,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.func3.js">
+  <component name="RunManager" selected="Node.js.class1.js">
     <configuration name="arrow.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/arrow.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="expression.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/expression.js" working-dir="$PROJECT_DIR$">
+    <configuration name="class1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/class1.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="func1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/func1.js" working-dir="$PROJECT_DIR$">
@@ -171,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.class1.js" />
         <item itemvalue="Node.js.func3.js" />
         <item itemvalue="Node.js.func2.js" />
         <item itemvalue="Node.js.func1.js" />
         <item itemvalue="Node.js.arrow.js" />
-        <item itemvalue="Node.js.expression.js" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +200,7 @@
       <option name="presentableId" value="Default" />
       <updated>1550280029718</updated>
       <workItem from="1550280031858" duration="619000" />
-      <workItem from="1550280669149" duration="17536000" />
+      <workItem from="1550280669149" duration="21508000" />
     </task>
     <task id="LOCAL-00001" summary="React ReactDOM">
       <created>1550288254589</created>
@@ -304,11 +314,32 @@
       <option name="project" value="LOCAL" />
       <updated>1550303592154</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="props2">
+      <created>1550304103616</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1550304103616</updated>
+    </task>
+    <task id="LOCAL-00018" summary="display list">
+      <created>1550306192204</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1550306192204</updated>
+    </task>
+    <task id="LOCAL-00019" summary="ES6 Class기초">
+      <created>1550307028133</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1550307028133</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18155000" />
+    <option name="totallyTimeSpent" value="22127000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -319,7 +350,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -327,7 +358,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -351,7 +382,10 @@
     <MESSAGE value="array 숙제 추가" />
     <MESSAGE value="array 숙제 카페경로 추가" />
     <MESSAGE value="props" />
-    <option name="LAST_COMMIT_MESSAGE" value="props" />
+    <MESSAGE value="props2" />
+    <MESSAGE value="display list" />
+    <MESSAGE value="ES6 Class기초" />
+    <option name="LAST_COMMIT_MESSAGE" value="ES6 Class기초" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.ts" />
@@ -411,13 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/array1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/array3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -432,10 +459,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/array1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/class1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+        <state relative-caret-position="207">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
         </state>
       </provider>
     </entry>
