@@ -74,19 +74,29 @@ const Player = (props) => (
   </div>
 );
 
-const App = (props) => {
-  return (
-    <div className="scoreboard">
-      <Header title="My scoreboard" totalPlayers={1 + 10}/>
-      {/*play list*/}
-      {
-        props.initialPlaters.map(item=><Player
-          key={item.id}
-          name={item.name}
-          score={item.score} />)
-      }
-    </div>
-  )
+class App extends React.Component{
+  state = {
+    players: [
+      {name: 'LDK', score: 30, id: 0},
+      {name: 'HONG', score: 40, id: 1},
+      {name: 'KIM', score: 50, id: 2},
+      {name: 'PARK', score: 60, id: 3},
+    ]
+  }
+  render() {
+    return (
+      <div className="scoreboard">
+        <Header title="My scoreboard" totalPlayers={1 + 10}/>
+        {/*play list*/}
+        {
+          this.state.players.map(item=><Player
+            key={item.id}
+            name={item.name}
+            score={item.score} />)
+        }
+      </div>
+    )
+  }
 }
 
-ReactDOM.render( <App initialPlaters={players}/>, document.getElementById('root'));
+ReactDOM.render( <App />, document.getElementById('root'));
